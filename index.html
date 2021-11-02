@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang= "en" class="nojs">
+
+  <head>
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=none" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="screen.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="site.js"></script>
+  </head>
+
+  <body>
+    <main id="content">
+      <h1>Gymtopia!</h1>
+      <h3>Get a free pass today!</h3>
+      <p>Fill of the information below.</p>
+      <form id="form-one" method="get" autocomplete="on" action="#null" onsubmit= "return validationEvent()">
+        <fieldset>
+          <div id="wrap">
+            <ul class="form-inputs">
+              <li>
+                <label for="first">First name:</label>
+                <input type="text" id="first" name="first">
+              </li>
+              <li>
+                <label for="last">Last name:</label>
+                <input type="text" id="last" name="last">
+              </li>
+              <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+              </li>
+              <li>
+                <label for="phone">Phone number:</label>
+                <input type="number" id="phone" name="phone">
+              </li>
+              <li>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+              </li>
+              <li id="news">
+                <label for="news">Check to subscribe to our newsletter!</label>
+                <input type="checkbox" id="news"/>
+              </li>
+              <li id="sub-button">
+                <input type="submit" value="Sign up!">
+                <input type="reset" value="Clear">
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+     <footer id="footer">
+      <p>Site © James Bochenek. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
