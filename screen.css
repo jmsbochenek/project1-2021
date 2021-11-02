@@ -6,7 +6,7 @@ html {
   font-size: 1.125em; /*18 /16 = 1.125*/
   line-height: 1.55555em; /*28 /18 =1.55555em */
   padding: 1.55555em; /*28 /18 =1.55555em */
-  background-color: #FFAE00;
+  background-color: #FF6D4E;
 }
 
 fieldset{
@@ -18,7 +18,7 @@ fieldset{
   padding-top: 0.5em; /*9/18= 0.5em*/
   padding-bottom: 0.5em; /*9/18= 0.5em*/
   border-color: transparent;
-  background-color: #46FF00;
+  background-color: #4EFDFF;
 }
 h1 {
   font-size: 200%; /*or 40/18= 2.222222em*/
@@ -49,7 +49,7 @@ label [for="news"]{
 input {
   font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   border-color: transparent;
-  background-color: #00EDFF;
+  background-color: #BEBEBE;
   overflow: visible;
 }
 
