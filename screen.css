@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+/*@import url("//basehold.it/24");*/
+
+html {
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  font-size: 1.125em; /*18 /16 = 1.125*/
+  line-height: 1.55555em; /*28 /18 =1.55555em */
+  padding: 1.55555em; /*28 /18 =1.55555em */
+  background-color: #FFAE00;
+}
+
+fieldset{
+  border-color: transparent;
+}
+
+#content {
+  padding-left: 1em; /*18/18= 1em*/
+  padding-top: 0.5em; /*9/18= 0.5em*/
+  padding-bottom: 0.5em; /*9/18= 0.5em*/
+  border-color: transparent;
+  background-color: #46FF00;
+}
+h1 {
+  font-size: 200%; /*or 40/18= 2.222222em*/
+  font-weight: bold;
+  padding-top: 0.5em; /*9/18=0.5 */
+  padding-bottom: 0.5em; /*9/18=0.5 */
+}
+
+h2 {
+  padding-top: 0.5em;
+}
+p {
+  padding-bottom: 0.5em;
+}
+
+li {
+  padding-bottom: 1em; /*18/18=1em */
+}
+
+[type="date"] {
+  padding-bottom: 0.5em; /*9/18=0.5em */
+}
+
+label [for="news"]{
+  font-size: 9px;
+}
+
+input {
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  border-color: transparent;
+  background-color: #00EDFF;
+  overflow: visible;
+}
+
+/*chose 355 px because thats when the
+inputs would shift and mess up the format*/
+@media screen and (min-width: 220px) {
+  h1 {
+    font-size: 120%
+  }
+}
+
+@media screen and (min-width: 270px) {
+  h1 {
+    font-size: 150%
+  }
+}
+
+@media screen and (min-width: 355px) {
+  label {
+    display: block;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  h1 {
+    font-size: 200%
+  }
+  html {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 230%
+  }
+  html {
+    font-size: 110%
+  }
+}
